@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  width: 100%;
+  background-color: black;
+}
+
+body{
+  background-color: #999999;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainCabecalho{
+  background-color: #ff5c5c;
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box;
+  border-bottom: white solid;
+}
+
+.mainCabecalho h1{
+  text-align: center;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: arial;
+}
+
+.bloco1{
+  float: left;
+  box-sizing: border-box;
+}
+
+.mainCabecalho h4{
+  font-family: arial;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.mainNav{
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-bottom: white solid;
+}
+
+.mainNav ul{
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.mainNav li{
+  display: inline-block;
+  text-align: center;
+}
+
+.mainNav a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 50px;
+}
+
+.mainNav a:hover{
+  color: #ff5c5c;
+}
+
+.conteiner{
+  background-color: white;
+  height: 400px;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  width: 80%;
+}
+
+.conteiner h2{
+  padding-top: 20px;
+}
+
+.conteiner p{
+  padding-bottom: 10px;
+}
+
+.conteiner img{
+  border-radius: 20px;
+  border: black solid;
+}
+
+.mainFooter{
+  background-color: #ff5c5c;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: white solid;
+}
+
+.bloco3 li{
+  text-decoration-style: solid;
+}
+
+.conteinerComentarios{
+  background-color: white;
+  height: auto;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.conteinerComentarios h2{
+  text-align: center;
+  padding: 10px;
+}
+
+.conteinerComentarios ul{
+  padding-left: 40px;
+}
+
+.positivo ul{
+  list-style-image: url("../img/greencheck.png");
+}
+
+.negativo ul{
+  list-style-image: url("../img/redcross.png");
+}
+
+.conteinerCarros{
+  background-color: white;
+  height: auto;
+  border-radius: 20px;
+  padding-bottom: 20px;
+}
+
+.conteinerCarros h1{
+  text-align: center;
+  padding: 20px;
+}
+
+.conteinerCarros h4{
+  padding-left: 20px;
+  font-weight: normal;
+}
+
+.conteinerCarros ul{
+  padding-left: 60px;
+}
+
+.imagem{
+  vertical-align: center;
+  text-align: center;
+}
+
+.conteinerCarros img{
+  border-radius: 20px;
+  border: black solid;
+}
+
+.conteinerCarros p{
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 95%;
+}
+
+.conteinerCarros a{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+.conteinerCarros a:hover{
+  color: #ff5c5c;
+}
+
+.blocoVideo{
+  text-align: center;
+  padding: 20px;
+}
+
+iframe{
+  border-radius: 20px;
+  border: black solid;
+}
